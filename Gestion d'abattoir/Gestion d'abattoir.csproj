@@ -174,36 +174,26 @@
     <Compile Include="Gestion  Des Vents\Liste_Des_Vents.Designer.cs">
       <DependentUpon>Liste_Des_Vents.cs</DependentUpon>
     </Compile>
-
     <Compile Include="Gestion Des Clients\Ajouter_Client.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Gestion Des Clients\Ajouter_Client.Designer.cs">
       <DependentUpon>Ajouter_Client.cs</DependentUpon>
     </Compile>
-
     <Compile Include="Gestion Des Clients\Dataclients.cs" />
-
     <Compile Include="Gestion Des Clients\Liste_Des_Clients.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Gestion Des Clients\Liste_Des_Clients.Designer.cs">
       <DependentUpon>Liste_Des_Clients.cs</DependentUpon>
     </Compile>
-
     <Compile Include="Gestion Des Clients\Modifier_Client.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Gestion Des Clients\Modifier_Client.Designer.cs">
       <DependentUpon>Modifier_Client.cs</DependentUpon>
     </Compile>
-    <Compile Include="Gestion Des Fournisseures\Liste_Des_Fournisseures.cs">
-
     <Compile Include="Gestion Des Fornisseures\Datafournissuers.cs" />
-    <Compile Include="Gestion Des Fornisseures\Liste_Des_Fornisseures.cs">
-
-      <SubType>UserControl</SubType>
-    </Compile>
     <Compile Include="Gestion Des Fournisseures\Liste_Des_Fournisseures.Designer.cs">
       <DependentUpon>Liste_Des_Fournisseures.cs</DependentUpon>
     </Compile>
@@ -215,7 +205,6 @@
     <EmbeddedResource Include="Gestion  Des Achats\Liste_Des_Cotta.resx">
       <DependentUpon>Liste_Des_Cotta.cs</DependentUpon>
     </EmbeddedResource>
-
     <EmbeddedResource Include="Gestion Des Clients\Ajouter_Client.resx">
       <DependentUpon>Ajouter_Client.cs</DependentUpon>
     </EmbeddedResource>
@@ -225,7 +214,6 @@
     <EmbeddedResource Include="Gestion Des Clients\Modifier_Client.resx">
       <DependentUpon>Modifier_Client.cs</DependentUpon>
     </EmbeddedResource>
-
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
