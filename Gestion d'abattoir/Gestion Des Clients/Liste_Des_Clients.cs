@@ -19,7 +19,9 @@ namespace Gestion_d_abattoir.Gestion_Des_Clients
 
         private void bunifuButton21_Click(object sender, EventArgs e)
         {
-
+            Ajouter_Client ajtc = new Ajouter_Client();
+            ajtc.ShowDialog();
         }
+            
     }
 }
