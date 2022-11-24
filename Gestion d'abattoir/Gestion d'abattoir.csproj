@@ -154,6 +154,36 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Gestion  Des Achats\Liste_Des_Cotta.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gestion  Des Achats\Liste_Des_Cotta.Designer.cs">
+      <DependentUpon>Liste_Des_Cotta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion  Des Produis\Liste_des_Produits.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gestion  Des Produis\Liste_des_Produits.Designer.cs">
+      <DependentUpon>Liste_des_Produits.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion  Des Vents\Liste_Des_Vents.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gestion  Des Vents\Liste_Des_Vents.Designer.cs">
+      <DependentUpon>Liste_Des_Vents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion Des Clients\Liste_Des_Clients.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gestion Des Clients\Liste_Des_Clients.Designer.cs">
+      <DependentUpon>Liste_Des_Clients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion Des Fornisseures\Liste_Des_Fornisseures.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gestion Des Fornisseures\Liste_Des_Fornisseures.Designer.cs">
+      <DependentUpon>Liste_Des_Fornisseures.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -183,11 +213,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Gestion  Des Achats\" />
-    <Folder Include="Gestion  Des Produis\" />
-    <Folder Include="Gestion  Des Vents\" />
-    <Folder Include="Gestion Des Clients\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
