@@ -155,12 +155,6 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Gestion  Des Achats\Liste_Des_Cotta.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Gestion  Des Achats\Liste_Des_Cotta.Designer.cs">
-      <DependentUpon>Liste_Des_Cotta.cs</DependentUpon>
-    </Compile>
     <Compile Include="Gestion  Des Produis\Liste_des_Produits.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -194,16 +188,16 @@
       <DependentUpon>Modifier_Client.cs</DependentUpon>
     </Compile>
     <Compile Include="Gestion Des Fornisseures\Datafournissuers.cs" />
-    <Compile Include="Gestion Des Fournisseures\Liste_Des_Fournisseures.Designer.cs">
+    <Compile Include="Gestion Des Fornisseures\Liste_Des_Fournisseures.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gestion Des Fornisseures\Liste_Des_Fournisseures.Designer.cs">
       <DependentUpon>Liste_Des_Fournisseures.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Gestion  Des Achats\Liste_Des_Cotta.resx">
-      <DependentUpon>Liste_Des_Cotta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Gestion Des Clients\Ajouter_Client.resx">
       <DependentUpon>Ajouter_Client.cs</DependentUpon>
@@ -238,6 +232,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Gestion  Des Achats\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
