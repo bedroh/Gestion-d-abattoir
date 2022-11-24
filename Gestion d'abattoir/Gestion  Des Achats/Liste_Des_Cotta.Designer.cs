@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Liste_Des_Cotta));
             this.bunifuPanel1 = new Bunifu.UI.WinForms.BunifuPanel();
             this.SuspendLayout();
@@ -55,11 +56,21 @@
             this.Controls.Add(this.bunifuPanel1);
             this.Name = "Liste_Des_Cotta";
             this.Size = new System.Drawing.Size(1184, 801);
+
+            this.SuspendLayout();
+            // 
+            // Liste_Des_Cotta
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Name = "Liste_Des_Cotta";
+            this.Size = new System.Drawing.Size(697, 416);
+
             this.ResumeLayout(false);
 
         }
 
-        #endregion
+       
 
         private Bunifu.UI.WinForms.BunifuPanel bunifuPanel1;
     }
