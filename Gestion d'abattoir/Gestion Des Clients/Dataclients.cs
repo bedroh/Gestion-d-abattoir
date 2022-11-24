@@ -16,7 +16,7 @@ namespace Gestion_d_abattoir.Gestion_Des_Clients
             try
             {
                 Connexion.conn.Open();
-                SqlCommand sql = new SqlCommand("insert into Clients ( nomclient , numtele , adress , nis , nif , numregistre ) values ('" + nomclient + "' ,  '" + numtele + "' , '" + adress + "' , '" + nis + "', '" + nif + "' , , '" + numregistre + "');", Connexion.conn);
+                SqlCommand sql = new SqlCommand("insert into Clients ( nomclient , numtele , adress , nis , nif , numregistre ) values ('" + nomclient + "' ,  '" + numtele + "' , '" + adress + "' , '" + nis + "', '" + nif + "' ,  '" + numregistre + "');", Connexion.conn);
                 sql.ExecuteNonQuery();
                 Connexion.conn.Close();
             }
