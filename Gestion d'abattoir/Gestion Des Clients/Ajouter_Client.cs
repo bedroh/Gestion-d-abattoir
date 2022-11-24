@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Gestion_d_abattoir.Gestion_Des_Clients
 {
-    public partial class Liste_Des_Clients : UserControl
+    public partial class Ajouter_Client : Form
     {
-        public Liste_Des_Clients()
+        public Ajouter_Client()
         {
             InitializeComponent();
-        }
-
-        private void bunifuButton21_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
