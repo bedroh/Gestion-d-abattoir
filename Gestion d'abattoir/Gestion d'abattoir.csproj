@@ -148,6 +148,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Connexion.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -166,18 +167,21 @@
     <Compile Include="Gestion  Des Produis\Liste_des_Produits.Designer.cs">
       <DependentUpon>Liste_des_Produits.cs</DependentUpon>
     </Compile>
+    <Compile Include="Gestion  Des Produis\Produits.cs" />
     <Compile Include="Gestion  Des Vents\Liste_Des_Vents.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Gestion  Des Vents\Liste_Des_Vents.Designer.cs">
       <DependentUpon>Liste_Des_Vents.cs</DependentUpon>
     </Compile>
+    <Compile Include="Gestion Des Clients\Dataclients.cs" />
     <Compile Include="Gestion Des Clients\Liste_Des_Clients.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Gestion Des Clients\Liste_Des_Clients.Designer.cs">
       <DependentUpon>Liste_Des_Clients.cs</DependentUpon>
     </Compile>
+    <Compile Include="Gestion Des Fornisseures\Datafournissuers.cs" />
     <Compile Include="Gestion Des Fornisseures\Liste_Des_Fornisseures.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -188,6 +192,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestion  Des Achats\Liste_Des_Cotta.resx">
+      <DependentUpon>Liste_Des_Cotta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
