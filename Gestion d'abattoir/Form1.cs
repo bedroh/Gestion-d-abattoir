@@ -16,5 +16,22 @@ namespace Gestion_d_abattoir
         {
             InitializeComponent();
         }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void bunifuButton23_Click(object sender, EventArgs e)
+        {
+            liste_Des_Fournisseures1.Show();
+            liste_Des_Fournisseures1.BringToFront();
+        }
+
+        private void bunifuButton24_Click(object sender, EventArgs e)
+        {
+            liste_Des_Clients1.Show();
+            liste_Des_Clients1.BringToFront();
+        }
     }
 }
