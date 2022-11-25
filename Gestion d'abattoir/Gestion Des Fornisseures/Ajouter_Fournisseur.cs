@@ -10,17 +10,16 @@ using System.Windows.Forms;
 
 namespace Gestion_d_abattoir.Gestion_Des_Fornisseures
 {
-    public partial class Liste_Des_Fournisseures : UserControl
+    public partial class Ajouter_Fournisseur : Form
     {
-        public Liste_Des_Fournisseures()
+        public Ajouter_Fournisseur()
         {
             InitializeComponent();
         }
 
-        private void bunifuButton21_Click(object sender, EventArgs e)
+        private void Ajouter_Fournisseur_Load(object sender, EventArgs e)
         {
-            Ajouter_Fournisseur ajtF = new Ajouter_Fournisseur();
-            ajtF.ShowDialog();
+
         }
     }
 }
