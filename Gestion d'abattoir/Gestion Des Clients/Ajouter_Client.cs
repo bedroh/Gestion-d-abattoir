@@ -26,7 +26,7 @@ namespace Gestion_d_abattoir.Gestion_Des_Clients
             else
             {
                 Dataclients.Ajouter_Client(bunifuTextBox1.Text ,bunifuTextBox4.Text , bunifuTextBox3.Text ,bunifuTextBox6.Text , bunifuTextBox2.Text , bunifuTextBox5.Text );      
-                MessageBox.Show("Athélet ajouter avec succes", "Ajouter avec succes", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Client ajouter avec succes", "Ajouter avec succes", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 this.Close();
             }
